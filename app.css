@@ -3,9 +3,9 @@ html {
 }
 
 body {
-  font-family: Georgia, serif;
+  font-family: Arial, sans-serif;
   font-size: 36px;
-  color: #252528;
+  color: #666;
   background-color: white;
   margin: 0;
   height: 100%;
@@ -34,12 +34,12 @@ li {
 }
 
 a:link {
-  color: black;
+  color: #666;
   text-decoration: none;
 }
 
 a:visited {
-  color: #252528;
+  color: #666;
 }
 
 
@@ -72,6 +72,10 @@ li.pane {
   flex-grow: 1;
   font-size: larger;
   margin-top: 1em;
+}
+
+.text-caption {
+  color: #000;
 }
 
 .time-stamp {
